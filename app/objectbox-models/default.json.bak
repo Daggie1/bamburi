@@ -1,0 +1,417 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:4564014360000540568",
+      "lastPropertyId": "7:521307088742566801",
+      "name": "Photo",
+      "properties": [
+        {
+          "id": "1:4442806116137113835",
+          "name": "id"
+        },
+        {
+          "id": "2:5039942077686647988",
+          "name": "photo_server_url"
+        },
+        {
+          "id": "3:687586122592080241",
+          "name": "photo_local_url"
+        },
+        {
+          "id": "4:1645547043457849431",
+          "name": "downloaded"
+        },
+        {
+          "id": "5:6685956679245238026",
+          "name": "photo_corner_id"
+        },
+        {
+          "id": "6:6113754560148260990",
+          "name": "created_at"
+        },
+        {
+          "id": "7:521307088742566801",
+          "name": "deleted_at"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:6932381085552290619",
+      "lastPropertyId": "6:3846505326216515267",
+      "name": "Poll",
+      "properties": [
+        {
+          "id": "1:980658645000454552",
+          "name": "id"
+        },
+        {
+          "id": "2:6875349495401001573",
+          "name": "body"
+        },
+        {
+          "id": "3:5774815591957996847",
+          "name": "start_time"
+        },
+        {
+          "id": "4:7058766849131645440",
+          "name": "end_time"
+        },
+        {
+          "id": "5:3603969501475188807",
+          "name": "dismissed"
+        },
+        {
+          "id": "6:3846505326216515267",
+          "name": "created_at"
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:4185514603410774476",
+          "name": "options"
+        }
+      ]
+    },
+    {
+      "id": "3:2485167742937271917",
+      "lastPropertyId": "6:7777124778223451047",
+      "name": "PhotoCorner",
+      "properties": [
+        {
+          "id": "1:3061002651030949601",
+          "name": "id"
+        },
+        {
+          "id": "2:65294240913835801",
+          "name": "name"
+        },
+        {
+          "id": "3:2505126225449443029",
+          "name": "total_photos"
+        },
+        {
+          "id": "4:1527816391576199811",
+          "name": "latest_photo_url"
+        },
+        {
+          "id": "5:7240361836985626651",
+          "name": "created_at"
+        },
+        {
+          "id": "6:7777124778223451047",
+          "name": "order_index"
+        }
+      ],
+      "relations": [
+        {
+          "id": "2:7939017004653706100",
+          "name": "photos"
+        }
+      ]
+    },
+    {
+      "id": "4:8877318178577225337",
+      "lastPropertyId": "5:9010397882897041594",
+      "name": "NewsLetterCategory",
+      "properties": [
+        {
+          "id": "1:255613700245495164",
+          "name": "id"
+        },
+        {
+          "id": "2:2277389777558697274",
+          "name": "name"
+        },
+        {
+          "id": "3:6359344130258767895",
+          "name": "desceiption"
+        },
+        {
+          "id": "4:3735818913593478065",
+          "name": "admin_name"
+        },
+        {
+          "id": "5:9010397882897041594",
+          "name": "created_at"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:6155050835740426529",
+      "lastPropertyId": "8:8692428129539492025",
+      "name": "Video",
+      "properties": [
+        {
+          "id": "1:3105183773617473561",
+          "name": "id"
+        },
+        {
+          "id": "2:806063640026884852",
+          "name": "caption"
+        },
+        {
+          "id": "3:3580021448133762677",
+          "name": "video_url"
+        },
+        {
+          "id": "4:1217254928136648962",
+          "name": "video_thumbnail"
+        },
+        {
+          "id": "5:7341942594902666654",
+          "name": "created_at"
+        },
+        {
+          "id": "6:4749466612327196975",
+          "name": "deleted_at"
+        },
+        {
+          "id": "7:4878661329765182928",
+          "name": "order_index"
+        },
+        {
+          "id": "8:8692428129539492025",
+          "name": "downloaded"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:4830219110559028565",
+      "lastPropertyId": "3:5126311718910359829",
+      "name": "Option",
+      "properties": [
+        {
+          "id": "1:2037132011613984712",
+          "name": "id"
+        },
+        {
+          "id": "2:8116154386520341367",
+          "name": "poll_id"
+        },
+        {
+          "id": "3:5126311718910359829",
+          "name": "option"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "7:1464543073870657095",
+      "lastPropertyId": "11:7931310857836280073",
+      "name": "Newsletter",
+      "properties": [
+        {
+          "id": "1:5497641360764415182",
+          "name": "id"
+        },
+        {
+          "id": "2:5464522004775826218",
+          "name": "title"
+        },
+        {
+          "id": "3:2997025600538438655",
+          "name": "body"
+        },
+        {
+          "id": "4:7376035631916308443",
+          "name": "category"
+        },
+        {
+          "id": "5:6841125467093872801",
+          "name": "admin_name"
+        },
+        {
+          "id": "6:2008676149046631005",
+          "name": "status"
+        },
+        {
+          "id": "7:4815554080847495541",
+          "name": "order_index"
+        },
+        {
+          "id": "8:3793995037198314922",
+          "name": "pdf_url"
+        },
+        {
+          "id": "9:5387281580433049825",
+          "name": "created_at"
+        },
+        {
+          "id": "10:3984235896031478856",
+          "name": "deleted_at"
+        },
+        {
+          "id": "11:7931310857836280073",
+          "name": "downloaded"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "8:1607233761006486856",
+      "lastPropertyId": "10:1787082117282192282",
+      "name": "User",
+      "properties": [
+        {
+          "id": "1:6516696495661756956",
+          "name": "id"
+        },
+        {
+          "id": "2:6627768028551731072",
+          "name": "name"
+        },
+        {
+          "id": "3:72721036552683317",
+          "name": "email"
+        },
+        {
+          "id": "4:7003149237930637458",
+          "name": "staff_id"
+        },
+        {
+          "id": "5:5290644791250075890",
+          "name": "phone_number"
+        },
+        {
+          "id": "6:1196717390600786049",
+          "name": "id_number"
+        },
+        {
+          "id": "7:2722211143793042895",
+          "name": "fcm_token"
+        },
+        {
+          "id": "8:1689959268892745442",
+          "name": "first_time_login"
+        },
+        {
+          "id": "9:182336933065006766",
+          "name": "require_password_reset"
+        },
+        {
+          "id": "10:1787082117282192282",
+          "name": "status"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "9:6644156548040018927",
+      "lastPropertyId": "14:4373495131668350794",
+      "name": "News",
+      "properties": [
+        {
+          "id": "1:8669019156430547805",
+          "name": "id"
+        },
+        {
+          "id": "2:2973082858019750745",
+          "name": "title"
+        },
+        {
+          "id": "3:6264070356842055405",
+          "name": "message"
+        },
+        {
+          "id": "4:3339862195204400743",
+          "name": "repliable"
+        },
+        {
+          "id": "5:1559356983723182219",
+          "name": "news_type"
+        },
+        {
+          "id": "6:7227666195487140577",
+          "name": "media_type"
+        },
+        {
+          "id": "7:4968340195831770795",
+          "name": "media_url"
+        },
+        {
+          "id": "8:2233013374132514309",
+          "name": "media_size"
+        },
+        {
+          "id": "9:8525244554586029110",
+          "name": "admin_name"
+        },
+        {
+          "id": "10:7599465408163485206",
+          "name": "created_at"
+        },
+        {
+          "id": "11:9153865185889062210",
+          "name": "downloaded"
+        },
+        {
+          "id": "12:4126561589548949212",
+          "name": "deleted_at"
+        },
+        {
+          "id": "13:6008281238542703118",
+          "name": "order_index"
+        },
+        {
+          "id": "14:4373495131668350794",
+          "name": "pdf_url"
+        }
+      ],
+      "relations": [
+        {
+          "id": "3:6772974346647770174",
+          "name": "responses"
+        }
+      ]
+    },
+    {
+      "id": "10:549093920746654573",
+      "lastPropertyId": "6:6295192322235698826",
+      "name": "Comment",
+      "properties": [
+        {
+          "id": "1:2882024210552914809",
+          "name": "id"
+        },
+        {
+          "id": "2:4523445288945963437",
+          "name": "news_id"
+        },
+        {
+          "id": "3:5459533983301090279",
+          "name": "admin_name"
+        },
+        {
+          "id": "4:3698965446327660115",
+          "name": "from"
+        },
+        {
+          "id": "5:2194925866808434807",
+          "name": "response"
+        },
+        {
+          "id": "6:6295192322235698826",
+          "name": "created_at"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "10:549093920746654573",
+  "lastIndexId": "0:0",
+  "lastRelationId": "3:6772974346647770174",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

@@ -1,0 +1,5 @@
+password: B4Mbu31!
+alias: bamburi
+SMS retriver hash key (production): qpwajV2NJSJ
+SMS retriver hash key (release): nkHZfNXID7Bo
+SMS retriver hash key (debug): dAY+B/vpwZo

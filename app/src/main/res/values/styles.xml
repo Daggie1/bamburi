@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme_no_action_bar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="NewslettersTheme" parent="AppTheme">
+        <item name="android:actionOverflowButtonStyle">@style/MyOverFlow</item>
+    </style>
+
+    <style name="MyOverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_sort_white_24dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="BottomNavigation">
+        <item name="android:background">@android:color/white</item>
+        <item name="itemBackground">@drawable/nav_bottom_bg</item>
+        <item name="itemIconTint">@drawable/bottom_nav_txt_color</item>
+        <item name="itemTextColor">@drawable/bottom_nav_txt_color</item>
+        <item name="paddingStart">@dimen/bottom_navigation_padding</item>
+        <item name="paddingEnd">@dimen/bottom_navigation_padding</item>
+    </style>
+
+    <dimen name="bottom_navigation_padding">16dp</dimen>
+
+    <style name="MBamburiButtonStyle">
+        <item name="colorButtonNormal" tools:targetApi="lollipop">@color/white</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:tint">@color/colorPrimary</item>
+    </style>
+
+    <style name="MBamburiProgressBarStyle">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <color name="white">#FFFFFF</color>
+<!--rounded buttons 24dp corner radius-->
+<style name="roundedBtn">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">24dp</item>
+</style>
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+</resources>

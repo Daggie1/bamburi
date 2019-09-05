@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">M-Bamburi</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="bamburi_logo">bamburi logo</string>
+    <string name="lafargeholcim_logo">lafargeholcim logo</string>
+
+    <!-- Strings related to emailLogin -->
+    <string name="prompt_email">Email Address</string>
+    <string name="prompt_password">Password </string>
+    <string name="prompt_current_password">Current Password</string>
+    <string name="prompt_new_password">New Password</string>
+    <string name="prompt_confirm_new_password">Confirm New Pin</string>
+    <string name="password_guideline">New Password must be least 8 characters with a lowercase and uppercase letter, a symbol and a number</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">login</string>
+
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_phone">This Phone number is invalid</string>
+    <string name="error_invalid_password">This password is too short. Requires 8 characters.</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="please_provide_your_email_address">Please provide your email address</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="accept_terms">Accept Terms</string>
+    <string name="proceed">Proceed</string>
+    <string name="terms_and_conditions_terms">TERMS AND CONDITIONS (TERMS)</string>
+    <string name="welcome_to_m_bamburi">Welcome To M-Bamburi!</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+    <string name="enter_the_following_details_to_change_your_password">Enter the following details to change your password </string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="powered_by">powered by&#160;</string>
+    <string name="muva_logo">muva_logo</string>
+    <string name="what_s_new">What\'s New</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="community_corner">Community Corner</string>
+    <string name="campaigns_and_offers">Campaigns and Offers</string>
+    <string name="newsletters">Newsletters</string>
+    <string name="videos_corner">Videos Corner</string>
+    <string name="photos_corner">Photos Corner</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="log_out">Log Out</string>
+    <string name="version">Version: %1$s</string>
+    <string name="dismiss">DISMISS</string>
+    <string name="vote">VOTE</string>
+    <string name="poll_body">Which color would you prefer as the theme of this year\'s Newsletter</string>
+    <string name="image">image</string>
+    <string name="news_body">That said, we have been thinking about how to offer percentage based dimensions. I can\'t make any promise but it\'s something we would like to add</string>
+    <string name="comment_hint">Add Comment…</string>
+    <string name="comment_user">Kilion James</string>
+    <string name="comment_body">This is a test comment</string>
+    <string name="comment_time">2 hours ago</string>
+    <string name="please_wait">Please Wait…</string>
+    <string name="ok">OK</string>
+    <string name="error_passwords_not_matching">Passwords Don\'t match</string>
+    <string name="something_went_wrong">Sorry, something went wrong. Try again!</string>
+    <string name="what_s_new_bnav">WHAT\'S NEW</string>
+    <string name="upcoming_events_bnav">UPCOMING EVENTS</string>
+    <string name="newsletters_bnav">NEWSLETTERS</string>
+    <string name="photos_count">%1$d photos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancel">Cancel</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="play">PLAY</string>
+    <string name="written_by" formatted="false">%s %s</string>
+    <string name="video_title">Title</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">My Notifications</string>
+    <string name="news_bnav">News</string>
+    <string name="previous">PREV</string>
+    <string name="next">NEXT</string>
+    <string name="pdf_title">%1$s %2$d of %3$d</string>
+    <string name="download_in_progress">Download in progress…</string>
+    <string name="no_data">No %1$s yet!</string>
+    <string name="passwords_same">New password is same as the old one. Kindly change.</string>
+    <string name="prompt_title">Enter Title</string>
+    <string name="comment_here">Comment here…</string>
+    <string name="submit">Submit</string>
+    <string name="your_feedback">Your feedback…</string>
+    <string name="comments">COMMENTS</string>
+    <string name="sample_message">Sample Message</string>
+    <string name="view_pdf">VIEW PDF</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="pin">Pin e.g 8989</string>
+    <string name="i_have_a_reset_code">I have a reset Code</string>
+    <string name="resend_reset_code">Resend Reset Code</string>
+    <string name="pin_reset">Pin Reset</string>
+    <string name="phone_number_e_g_0712345678">Phone Number e.g 0712345678</string>
+    <string name="reset_code">Reset Code</string>
+    <string name="change_pin">Change Pin</string>
+    <string name="forgot_pin">Forgot Pin?</string>
+
+    <string name="title_activity_fullscreen">Update Required</string>
+
+
+    <string name="update_required">New Version Available</string>
+    <string name="update_required_message">Please update to the latest version to continue</string>
+    <string name="Update">Update</string>
+
+    <string name="title_activity_force_update">Update is Required</string>
+    <string name="Retry">Try Again</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="check_your_mobile_data_or_wifi">Check your mobile data or wifi and then retry</string>
+
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_items_titles">
+        <item>News</item>
+        <item>Upcoming Events</item>
+        <item>Campaigns and Offers</item>
+        <item>Newsletters</item>
+        <item>Video Corner</item>
+        <item>Photos Corner</item>
+        <item>Contact Us</item>
+        <item>Change Pin</item>
+        <item>Log Out</item>
+    </string-array>
+    <string-array name="menu_items_icons">
+        <item>@drawable/ic_brightness_low_black_24dp</item>
+        <item>@drawable/ic_event_available_black_24dp</item>
+        <item>@drawable/ic_filter_vintage_black_24dp</item>
+        <item>@drawable/ic_line_style_black_24dp</item>
+        <item>@drawable/ic_movie_black_24dp</item>
+        <item>@drawable/ic_perm_media_black_24dp</item>
+        <item>@drawable/ic_email_black_24dp</item>
+        <item>@drawable/ic_lock_black_24dp</item>
+        <item>@drawable/logout</item>
+    </string-array>
+</resources>

@@ -1,0 +1,128 @@
+PLEASE READ THESE LICENCE TERMS CAREFULLY
+ 
+BY CLICKING ON THE “ACCEPT TERMS” BUTTON BELOW YOU AGREE TO THESE TERMS WHICH WILL BIND YOU.
+  
+Bamburi Cement Limited (Bamburi) of P O Box 10921, 00100 Nairobi licenses you to use:
+ 
+•M-Bamburi mobile application software, the data supplied with the software (App) and any updates or supplements to it.
+•The related online or electronic documentation (Documentation).
+•The service you connect to via the App and the content Bamburi provides to you through it (Service).
+
+as permitted in these terms.
+
+1.PRIVACY  
+
+1.1.Bamburi only use any personal data it collects through your use of the App and the Services in the ways set out in its privacy policy.
+
+1.2.Please be aware that internet transmissions are never completely private or secure and that any message or information you send using the App or any Service may be read or intercepted by others, even if there is a special notice that a particular transmission is encrypted.
+
+2.USE OF APP
+
+In return for your agreeing to comply with these terms, you may:
+
+2.1.download or stream a copy of the App onto your iOS (version 10 and above) and Android (version 4.1 and above) device and view, use and display the App and the Service on such devices for your personal purposes only.
+2.2.use any Documentation to support your permitted use of the App and the Service. and
+2.3.receive and use any free supplementary software code or update of the App incorporating “patches” and corrections of errors as Bamburi may provide to you.
+
+3.TRANSFER
+
+The right to use the App and the Service is personal to you and you may not otherwise transfer the App or the Service to someone else, whether for money, for anything else or for free. If you sell/dispose of the device on which the App is installed, you must remove the App from it.
+
+
+
+4.AMENDMENT/VARIATION OF TERMS  
+
+4.1.Bamburi reserves the right to amend or vary these terms to reflect changes in law or best practice or to deal with additional features or for any other reasons.
+
+4.2.Bamburi will give you at least seven (7) days notice of any change by sending you an SMS with details of the change or notifying you of a change when you next start the App.
+
+4.3.If you do not accept the notified changes you will not be permitted to continue to use the App and the Service.
+
+5.UPDATE TO THE APP AND CHANGES TO THE SERVICE 
+
+5.1.From time to time, Bamburi may automatically update the App and change the Service to improve performance, enhance functionality, reflect changes to the operating system or address security issues. Alternatively Bamburi may ask you to update the App for these reasons.
+
+5.2.If you choose not to install such updates or if you opt out of automatic updates you may not be able to continue using the App and the Services.
+
+6.COLLECTION OF TECHNICAL & LOCATION DATA
+
+6.1.By using the App or any of the Services, you agree to Bamburi collecting and using technical information about the devices you use the App on and related software, hardware and peripherals to improve its products and to provide any Services to you.
+
+6.2.Certain Services may make use of location data sent from your devices. If you use these Services, you consent to Bamburi, its affiliates’ and licensees’ transmission, collection, retention, maintenance, processing and use of your location data and queries to provide and improve location-based and road traffic-based products and services.
+
+7.OTHER WEBSITES YOU LINK TO  
+
+7.1.The App or any Service may contain links to other independent websites which are not provided by Bamburi. Such independent sites are not under Bamburi’s control, and it is not responsible for and has not checked and approved their content or their privacy policies (if any).
+
+7.2.You will need to make your own independent judgement about whether to use any such independent sites, including whether to buy any products or services offered by them.
+
+8.LICENCE RESTRICTIONS 
+
+You agree that you will:
+
+8.1.except in the course of permitted sharing, not rent, lease, sub-license, loan, provide, or otherwise make available, the App or the Services in any form, in whole or in part to any person without prior written consent from Bamburi;
+8.2.not copy the App, Documentation or Services, except as part of the normal use of the App or where it is necessary for the purpose of back-up or operational security;
+8.3.not translate, merge, adapt, vary, alter or modify, the whole or any part of the App, Documentation or Services nor permit the App or the Services or any part of them to be combined with, or become incorporated in, any other programs, except as necessary to use the App and the Services on devices as permitted in these terms;
+8.4.not disassemble, de-compile, reverse engineer or create derivative works based on the whole or any part of the App or the Services nor attempt to do any such things, except to the extent that such actions cannot be prohibited because they are necessary to decompile the App to obtain the information necessary to create an independent program that can be operated with the App or with another program (Permitted Objective), and provided that the information obtained by you during such activities:
+
+8.4.1.is not disclosed or communicated without Bamburi’s prior written consent to any third party to whom it is not necessary to disclose or communicate it in order to achieve the Permitted Objective; and
+8.4.2.is not used to create any software that is substantially similar in its expression to the App;
+8.4.3.is kept secure; and
+8.4.4.is used only for the Permitted Objective;
+
+8.5.comply with all applicable technology control or export laws and regulations that apply to the technology used or supported by the App or any Service.
+
+9.ACCEPTABLE USE RESTRICTIONS 
+
+You must not:
+
+9.1.use the App or any Service in any unlawful manner, for any unlawful purpose, or in any manner inconsistent with these terms, or act fraudulently or maliciously, for example, by hacking into or inserting malicious code, such as viruses, or harmful data, into the App, any Service or any operating system;
+9.2.infringe Bamburi’s intellectual property rights or those of any third party in relation to your use of the App or any Service, including by the submission of any material (to the extent that such use is not licensed by these terms);
+9.3.transmit any material that is defamatory, offensive or otherwise objectionable in relation to your use of the App or any Service;
+9.4.use the App or any Service in a way that could damage, disable, overburden, impair or compromise Bamburi’s systems or security or interfere with other users; and
+9.5.collect or harvest any information or data from any Service or Bamburi’s systems or attempt to decipher any transmissions to or from the servers running any Service.
+
+
+10.INTELLECTUAL PROPERTY RIGHTS  
+
+All intellectual property rights in the App, the Documentation and the Services throughout the world belong to Bamburi (or its licensors) and the rights in the App and the Services are licensed (not sold) to you. You have no intellectual property rights in, or to, the App, the Documentation or the Services other than the right to use them in accordance with these terms.
+
+11.LIMITATION OF LIABILITY
+
+11.1.Limitations to the App and the Services. The App and the Services are provided for general information [and entertainment] purposes only. They do not offer advice on which you should rely. Although Bamburi makes reasonable efforts to update the information provided by the App and the Service, Bamburi makes no representations, warranties or guarantees, whether express or implied, that such information is accurate, complete or up to date.
+
+11.2.Please back-up content and data used with the App. It is recommended that you back up any content and data used in connection with the App, to protect yourself in case of problems with the App or the Service.
+
+11.3.Check that the App and the Services are suitable for you. The App and the Services have not been developed to meet your individual requirements. Please check that the facilities and functions of the App and the Services (as described on the appstore site and in the Documentation) meet your requirements.
+ 
+12.TERMINATION/END OF USE
+
+12.1.Bamburi may end your rights to use the App and Services at any time by contacting you if you are in breach of these Licence Terms. 
+
+12.2.Your rights to use the App will automatically end upon your separation from Bamburi.
+
+12.3.If your rights to use the App and Services are terminated/ended:
+
+12.3.1.You must stop all activities authorised by these terms, including your use of the App and any Services.
+12.3.2.You must delete or remove the App from all devices in your possession and immediately destroy all copies of the App which you have and confirm to Bamburi that you have done this.
+12.3.3.Bamburi may remotely access your devices and remove the App from them and cease providing you with access to the Services.
+
+13.ASSIGNMENT
+
+Bamburi may transfer its rights and obligations under these terms to another organisation. Bamburi will notify you in writing if this happens.
+
+14.NO RIGHTS FOR THIRD PARTIES  
+
+This agreement does not give rise to any rights to enforce any term of this agreement.
+
+15.SEPARABILITY
+
+Each of the paragraphs of these terms operates separately. If any court or relevant authority decides that any of them are unlawful, the remaining paragraphs will remain in full force and effect.
+
+16.WAIVER
+
+No failure or delay by Bamburi to exercise any right or remedy provided under this agreement or by law shall constitute a waiver of that or any other right or remedy, nor shall it preclude or restrict the further exercise of that or any other right or remedy. No single or partial exercise of such right or remedy shall preclude or restrict the further exercise of that or any other right or remedy.
+
+17.APPLICABLE LAW
+
+These terms are governed by Kenyan law and fall under the jurisdiction of Kenyan courts.

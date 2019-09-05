@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "321678725677",
+    "firebase_url": "https://bamburi-89423.firebaseio.com",
+    "project_id": "bamburi-89423",
+    "storage_bucket": "bamburi-89423.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321678725677:android:52dedd2c28ec15ed",
+        "android_client_info": {
+          "package_name": "com.muva.bamburi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321678725677-t2q32hc5inb83bik3ol08e9tmidtpddb.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "321678725677-t2q32hc5inb83bik3ol08e9tmidtpddb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdgbWk8__ZuMu6J_a5emkSC-D9uQFeozA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

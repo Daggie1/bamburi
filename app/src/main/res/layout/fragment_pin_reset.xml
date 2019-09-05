@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/page_left_padding"
+    android:paddingRight="@dimen/page_right_padding"
+    tools:context=".fragments.auth.Login">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
+        android:src="@drawable/bamburi_baobab_logo"
+        app:layout_constraintBottom_toTopOf="@+id/action_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/action_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pin_reset"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_size"
+        app:layout_constraintBottom_toTopOf="@+id/et_phone_number"
+        app:layout_constraintEnd_toEndOf="@id/app_logo"
+        app:layout_constraintStart_toStartOf="@id/app_logo"
+        app:layout_constraintTop_toBottomOf="@+id/app_logo" />
+
+
+    <EditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/field_wrapper"
+        android:hint="@string/phone_number_e_g_0712345678"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/field_padding_left"
+        android:paddingTop="@dimen/field_padding_top"
+        android:paddingBottom="@dimen/field_padding_bottom"
+        app:layout_constraintBottom_toTopOf="@+id/et_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/action_name" />
+
+    <ImageView
+        android:id="@+id/im_phone"
+        android:layout_width="@dimen/field_icon_height"
+        android:layout_height="@dimen/field_icon_height"
+        android:layout_marginLeft="@dimen/icon_left_margin"
+        android:src="@drawable/phone_call"
+        app:layout_constraintBottom_toBottomOf="@id/et_phone_number"
+        app:layout_constraintStart_toStartOf="@+id/et_phone_number"
+        app:layout_constraintTop_toTopOf="@id/et_phone_number" />
+
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/field_wrapper"
+        android:hint="@string/reset_code"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/field_padding_left"
+        android:paddingTop="@dimen/field_padding_top"
+        android:paddingBottom="@dimen/field_padding_bottom"
+        app:layout_constraintBottom_toTopOf="@+id/et_new_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_phone_number" />
+
+
+    <ImageView
+        android:layout_width="@dimen/field_icon_height"
+        android:layout_height="@dimen/field_icon_height"
+        android:layout_marginLeft="@dimen/icon_left_margin"
+        android:src="@drawable/password"
+        app:layout_constraintBottom_toBottomOf="@id/et_password"
+        app:layout_constraintStart_toStartOf="@+id/et_password"
+        app:layout_constraintTop_toTopOf="@id/et_password" />
+
+
+    <EditText
+        android:id="@+id/et_new_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/field_wrapper"
+        android:hint="@string/pin"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/field_padding_left"
+        android:paddingTop="@dimen/field_padding_top"
+        android:paddingBottom="@dimen/field_padding_bottom"
+        app:layout_constraintBottom_toTopOf="@+id/et_confirm_new_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_password" />
+
+
+    <ImageView
+        android:layout_width="@dimen/field_icon_height"
+        android:layout_height="@dimen/field_icon_height"
+        android:layout_marginLeft="@dimen/icon_left_margin"
+        android:src="@drawable/locked"
+        app:layout_constraintBottom_toBottomOf="@id/et_new_password"
+        app:layout_constraintStart_toStartOf="@+id/et_new_password"
+        app:layout_constraintTop_toTopOf="@id/et_new_password" />
+
+
+    <EditText
+        android:id="@+id/et_confirm_new_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/field_wrapper"
+        android:hint="@string/prompt_confirm_new_password"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/field_padding_left"
+        android:paddingTop="@dimen/field_padding_top"
+        android:paddingBottom="@dimen/field_padding_bottom"
+        app:layout_constraintBottom_toTopOf="@+id/btn_proceed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_new_password" />
+
+
+    <ImageView
+        android:layout_width="@dimen/field_icon_height"
+        android:layout_height="@dimen/field_icon_height"
+        android:layout_marginLeft="@dimen/icon_left_margin"
+        android:src="@drawable/locked"
+        app:layout_constraintBottom_toBottomOf="@id/et_confirm_new_password"
+        app:layout_constraintStart_toStartOf="@+id/et_confirm_new_password"
+        app:layout_constraintTop_toTopOf="@id/et_confirm_new_password" />
+
+
+    <Button
+        android:id="@+id/btn_proceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:text="PROCEED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_confirm_new_password"
+        app:theme="@style/btn_primary" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bnav_whats_new"
+        android:icon="@drawable/ic_brightness_low_white_24dp"
+        android:title="@string/news_bnav"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/bnav_upcoming_events"
+        android:icon="@drawable/ic_event_available_white_24dp"
+        android:title="@string/upcoming_events_bnav"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/bnav_newsletters"
+        android:icon="@drawable/ic_line_style_white_24dp"
+        android:title="@string/newsletters_bnav"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
